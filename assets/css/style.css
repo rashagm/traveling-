@@ -260,6 +260,16 @@ body.nav-active{
 .w-100{
   width: 100%;
 }
+
+.section-subtitle{
+  color: var(--text-majorelle-blue);
+  font-weight: var(--weight-medium);
+  text-transform: uppercase;
+}
+
+.section-title{
+  margin-block: 10px;
+}
 /*-----------------------------------*\
   #PRELOADER
 \*-----------------------------------*/
@@ -584,9 +594,29 @@ transition: var(--transition-1)
   #SERVICE
 \*-----------------------------------*/
 
+.service .container{
+  display: grid;
+  gap: 25px;
+}
+
+.service-card:nth-child(2){background-color: var(--bg-chrome-yellow-alpha-5);
 
 
+}
 
+.service-card:nth-child(3){background-color: var(--bg-red-salsa-alpha-5);
+}
+
+.service-card:nth-child(4){background-color: var(--bg-majorelle-blue-alpha-5);
+ }
+
+.service-card{ padding: 20px 20px;
+  /* max-width: max-content; */
+  border-radius: var(--radius-20);}
+
+.service-card .card-title{
+  margin-block: 10px 5px;
+}  
 
 /*-----------------------------------*\
   #DESTINATION
