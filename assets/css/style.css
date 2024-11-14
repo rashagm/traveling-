@@ -665,7 +665,7 @@ body.nav-active {
   border-radius: var(--radius-30);
 }
 
-.img-holder:is(:hover, :focus-within){
+.desti-card .img-holder:is(:hover, :focus-within){
   
   transform: scale(1.05);
   margin-block-end: 30px;
@@ -765,6 +765,17 @@ margin-inline: auto;
   #GALLERY
 \*-----------------------------------*/
 
+.gallery .section-title{
+  margin-block-end: 40px;
+}
+.gallery-list{
+  display: grid;
+  gap: 15px;
+}
+.gallery .img-holder{
+  border-radius: var(--radius-30);
+  
+}
 
 
 
