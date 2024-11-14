@@ -572,6 +572,7 @@ body.nav-active {
 
 .hero .btn-secendary {
   margin-block-end: 20px;
+  margin-inline: auto;
 }
 
 .hero-btn {
@@ -720,7 +721,43 @@ margin-inline: auto;
   #EXPERIENCE
 \*-----------------------------------*/
 
+.exp .container{
+  display: grid;
+  gap: 50px;
+}
 
+.exp .section-text{
+  margin-block-end: 20px;
+}
+/* .exp-list{display: grid;} */
+
+.exp-item{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+  /* gap: 100px; */
+  margin-block-start: 15px;
+  /* margin-left: 10px; */
+}
+.exp-item .item-title{
+  color: var(--text-majorelle-blue);
+  font-weight: var(--weight-bold);
+  font-size: 3.6rem;
+}
+
+.exp-banner{
+  position: relative;
+}
+
+
+.exp-shape {
+  position: absolute;
+  left:-10px;
+  top: 50%;
+  width: 25%;
+  filter: drop-shadow(var(--shadow-4))
+  /* transform: translate(-10%, -50%); */
+}
 
 
 
